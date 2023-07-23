@@ -1,9 +1,25 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
 h1 {
   color: #fff;
   /*Converting 60 px to 3.75 rem */
   font-size: 3.75rem;
   font-weight: 300;
   font-style: light;
+}
+
+h1.nitro { /*Converting 60 px to 3.75 rem */
+  color: #393939;
+  font-size: 3.75rem;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 h2 {
@@ -66,15 +82,20 @@ div.bulletpoints {
 
 .header__container {
   width: 100%;
-  height: 120px;
+  height: 110px;
   background-color: #fff0ed;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  justify-content: space-around;
 }
+
 .header__box1 {
   display: inline-block;
   width: 50px;
   height: 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 20px;
@@ -90,21 +111,21 @@ div.bulletpoints {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 900px;
   padding-left: 0px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .header__box3 {
   display: inline-block;
   width: 50px;
   height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -115,8 +136,8 @@ div.bulletpoints {
   display: inline-block;
   width: 50px;
   height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 20px;
@@ -127,10 +148,11 @@ div.bulletpoints {
 
 .header__box5 {
   display: inline-block;
+  text-align: center;
   width: 120px;
   height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 20px;
@@ -147,16 +169,18 @@ h1.menu {
   font-size: 3.75rem;
   font-weight: 300;
   font-style: light;
-  margin-top: 0px;
+  margin-top: 60px;
 }
 
 div.menutitle {
+  position: absolute;
+  top: 200px;
+  left: 580px;
   background-color: #393939;
   /*Converting 300 px to 18.75 rem */
   width: 18.75rem;
   /*Converting 200 px to 12.5 rem */
   height: 12.5rem;
-  border: 0px;
   padding: 20px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -164,7 +188,17 @@ div.menutitle {
   margin-right: auto;
 }
 
+div.box-border {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #5bacc3;
+}
+
 div.menubkg {
+  position: relative;
   background-image: url("../assets/images/coffee-circle.jpg");
   width: 100%;
   /*Converting 700 px to 43.75 rem */
@@ -232,6 +266,7 @@ a.class2:link {
   background-color: transparent;
   text-decoration: none;
 }
+
 a.class2:visited {
   color: #393939;
   /*Converting 21 px to 1.3125 rem */
@@ -241,6 +276,7 @@ a.class2:visited {
   background-color: transparent;
   text-decoration: none;
 }
+
 a.class2:hover {
   color: #fff;
   /*Converting 21 px to 1.3125 rem */
@@ -250,6 +286,7 @@ a.class2:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
 a.class2:active {
   color: #5bacc3;
   /*Converting 21 px to 1.3125 rem */
@@ -323,6 +360,7 @@ a.class3:link {
   background-color: transparent;
   text-decoration: none;
 }
+
 a.class3:visited {
   color: #393939;
   /*Converting 21 px to 1.3125 rem */
@@ -332,6 +370,7 @@ a.class3:visited {
   background-color: transparent;
   text-decoration: none;
 }
+
 a.class3:hover {
   color: #5bacc3;
   /*Converting 21 px to 1.3125 rem */
@@ -341,6 +380,7 @@ a.class3:hover {
   background-color: transparent;
   text-decoration: none;
 }
+
 a.class3:active {
   color: #5bacc3;
   /*Converting 21 px to 1.3125 rem */
@@ -349,4 +389,4 @@ a.class3:active {
   font-style: regular;
   background-color: transparent;
   text-decoration: underline;
-}
+}/*# sourceMappingURL=menu.css.map */
